@@ -1,0 +1,43 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    th {
+        color: #fff;
+    }
+</style>
+
+<div>
+    <table class="table table-striped">
+
+        <tr class="bg-info">
+            <th>Id</th>
+            <th>Category</th>
+            <th>Name</th>
+            <th>Image</th>
+        </tr>
+
+        <tbody id="myTable">
+
+        </tbody>
+
+
+    </table>
+</div>
+
+<div>
+    <p>Click on the "Choose File" button to upload a file:</p>
+
+    <form action="/upload.html">
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+    </form>
+
+</div>
+
+
+
+
+<script src="script.js">
+</script>
